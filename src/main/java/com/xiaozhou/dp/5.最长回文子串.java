@@ -12,7 +12,7 @@ Output: "bb"
 ①找到所有的回文子串
 ②在所有回文子串中找到最长的那一个子串即可。
  */
-public class leetcode5 {
+class Solution5 {
     String ss = "";
     public String longestPalindrome(String s) {
 

@@ -47,7 +47,7 @@ Output: false
 
 思路 这道题我学了递归和DP两种方案解决，DP的时间复杂度是O(s*p),递归的话我个人认为是O(Math.math(s,p)^3)
  */
-public class leetcode10 {
+class Solution10 {
     public boolean isMatch(String s, String p) {
         // return recurSionHelper(s.toCharArray(), 0, p.toCharArray(), 0);
         return dpHelper(s.toCharArray(),p.toCharArray());
