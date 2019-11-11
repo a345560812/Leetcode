@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c588821b-67c8-4b51-a629-8ef8106b9129" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaozhou/dp/96.不同的二叉搜索树.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaozhou/dp/Solution97.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaozhou/dp/Solution10.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaozhou/dp/Solution32.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaozhou/dp/Solution44.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaozhou/dp/Solution5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaozhou/dp/Solution53.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaozhou/dp/Solution62.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaozhou/dp/Solution63.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaozhou/dp/Solution64.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaozhou/dp/Solution70.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaozhou/dp/Solution95.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaozhou/dp/Solution96.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaozhou/dp/Solution97.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/xiaozhou/dp/TreeNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaozhou/dp/Solution115.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/xiaozhou/dp/Solution120.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiaozhou/dp/96.不同的二叉搜索树.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiaozhou/dp/96.不同的二叉搜索树.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,30 +23,31 @@
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.45" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="16" />
+          <entry key="java" value="18" />
           <entry key="kt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="16" />
+          <entry key="JAVA" value="18" />
           <entry key="Kotlin" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5480" />
+          <entry key="java" value="5647" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5480" />
+          <entry key="JAVA" value="5647" />
         </counts>
       </usages-collector>
     </session>
@@ -66,19 +55,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaozhou/dp/96.不同的二叉搜索树.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaozhou/dp/Solution115.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+            <state relative-caret-position="100">
+              <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaozhou/dp/Solution97.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaozhou/dp/Solution120.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+            <state relative-caret-position="125">
+              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -189,6 +178,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xiaozhou/dp/Solution95.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaozhou/dp/Solution96.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xiaozhou/dp/Solution97.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiaozhou/dp/96.不同的二叉搜索树.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiaozhou/dp/Solution115.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiaozhou/dp/Solution120.java" />
       </list>
     </option>
   </component>
@@ -205,6 +197,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -317,17 +310,27 @@
               <item name="leetcodestudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaozhou" type="462c0819:PsiDirectoryNode" />
+              <item name="dp" type="462c0819:PsiDirectoryNode" />
+              <item name="96.不同的二叉搜索树.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="leetcodestudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573358595187" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573487322430" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -376,15 +379,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26639894" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26974565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -397,6 +400,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="ANTLR Preview" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -428,6 +432,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
           <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaozhou/dp/Solution97.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaozhou/dp/96.不同的二叉搜索树.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
@@ -487,17 +499,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaozhou/dp/96.不同的二叉搜索树.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaozhou/dp/Solution115.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+        <state relative-caret-position="100">
+          <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaozhou/dp/Solution97.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaozhou/dp/Solution120.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+        <state relative-caret-position="125">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
         </state>
       </provider>
     </entry>

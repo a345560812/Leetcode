@@ -17,7 +17,7 @@ Given n = 3, there are a total of 5 unique BST's:
    思路：以任意一个值做根节点，满足左小右大。dp[i] += dp[j]*dp[i-j-1] 就是表示根节点为i时平衡二叉树的个数。
    dp[i]表示二叉树节点个数为i时它所包含不同平衡二叉树的个数， dp[j]等于左子树的个数，dp[i-j-1]等于右子树个数。
  */
-public class Solution96 {
+class Solution96 {
     public int numTrees(int n) {
         int[] dp = new int[n+1];
         dp[0] = 1;
