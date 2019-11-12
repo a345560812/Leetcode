@@ -39,8 +39,18 @@ babgbag
 babgbag
     ^^^
     思路： 对于rabbbit 和 rabbit  两个b的排列组合有三种。
+
+    rabbbit rabbit
+
  */
 class Solution115 {
+    public static void main(String[] args) {
+        String T = "rabbit";
+        String S = "rabbbit";
+        Solution115 s = new Solution115();
+        int i = s.numDistinct(S, T);
+        System.out.println(i);
+    }
     public int numDistinct(String S, String T) {
         int[][] mem = new int[T.length() + 1][S.length() + 1];
         for (int j = 0; j <= S.length(); j++) {
