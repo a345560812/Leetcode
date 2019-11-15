@@ -29,6 +29,7 @@ class Solution188 {
         for (int i = 1; i <= k; i++) {
             int tmpMax =  -prices[0];
             for (int j = 1; j < len; j++) {
+                // t[i][j] 可以看成XbuyXsell, tmpMax = Xbuy
                 t[i][j] = Math.max(t[i][j - 1], prices[j] + tmpMax);
                 tmpMax =  Math.max(tmpMax, t[i - 1][j - 1] - prices[j]);
             }
