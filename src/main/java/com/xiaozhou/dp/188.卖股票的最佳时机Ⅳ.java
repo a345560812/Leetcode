@@ -19,7 +19,6 @@ Output: 7
 Explanation: Buy on day 2 (price = 2) and sell on day 3 (price = 6), profit = 6-2 = 4.
              Then buy on day 5 (price = 0) and sell on day 6 (price = 3), profit = 3-0 = 3.
 思路：这道题考虑两种情况 如果k 大于等于数组的长度一半，那么能保证获得最大利润， 就退化成之前的一道题了，如果小于k.就如下
-tmpMax是当前时间状态持股之后的最大收益（很可能是负的） t[i][j]是记录的实际收益。
  */
 class Solution188 {
     public int maxProfit(int k, int[] prices) {
@@ -29,8 +28,9 @@ class Solution188 {
         for (int i = 1; i <= k; i++) {
             int tmpMax =  -prices[0];
             for (int j = 1; j < len; j++) {
-                // t[i][j] 可以看成XbuyXsell, tmpMax = Xbuy
+                // 第j-1天完成了i次交易或者j天完成了i次交易中求最大。
                 t[i][j] = Math.max(t[i][j - 1], prices[j] + tmpMax);
+                // j-1天发生i-1次交易后又买入了第j天的股票，或者在j-1之前已经发生了i-1次交易并购入了最后一只股票.
                 tmpMax =  Math.max(tmpMax, t[i - 1][j - 1] - prices[j]);
             }
         }

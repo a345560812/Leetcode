@@ -27,7 +27,7 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
  思路: 这道题有个限制 最多能交易两次， 也就是1次或者2次保证最大利润。
  采用类似状态机的思路来做。
  */
-class Solution123 {
+class   Solution123 {
 
     public int maxProfit(int[] prices) {
         int oneBuy = Integer.MIN_VALUE;
@@ -35,7 +35,7 @@ class Solution123 {
         int twoBuy = Integer.MIN_VALUE;
         int twoBuyTwoSell = 0;
         for(int i = 0; i < prices.length; i++){
-            oneBuy = Math.max(oneBuy, prices[i]);
+            oneBuy = Math.max(oneBuy, -prices[i]);
             oneBuyOneSell = Math.max(oneBuyOneSell, oneBuy + prices[i]);
             twoBuy = Math.max(twoBuy, oneBuyOneSell - prices[i]);
             twoBuyTwoSell = Math.max(twoBuyTwoSell, twoBuy + prices[i]);
